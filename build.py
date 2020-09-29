@@ -20,7 +20,7 @@ import toml
 
 
 def main(base_url):
-  print(base_url)
+    print(base_url)
     while base_url.endswith('/'):
         base_url = base_url[:-1]
 
